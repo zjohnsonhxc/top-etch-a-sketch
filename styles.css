@@ -3,12 +3,16 @@
 }
 
 body {
-  background: rgb(63, 94, 251);
+  background: rgb(94, 130, 183);
   background: radial-gradient(
     circle,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 1) 100%
+    rgb(63, 199, 251) 0%,
+    rgba(252, 30, 47, 1) 100%
   );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -31,6 +35,7 @@ button {
   border-radius: 50%;
   font-family: 'Lobster', cursive;
   border: 2px solid black;
+  margin: 10px 10px 50px 10px;
 }
 
 .container {
